@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h2>Computer
+        <div id="computer-choice"></div>
+    </h2>
+    <p>You
+        <div id="user-choice"></div>
+    </p>
+    <div id="result"></div>
+    <div class="btnsContainer">
+        <button id="rock"><img src="images/rock-ft-1.jpg" alt="" style="width:200px;height:200px;"> </button>
+        <button id="paper"><img src="images/paper-ft-1.jpg" alt="" style="width:200px;height:200px;"></button>
+        <button id="scissors"><img src="images/scissor-ft-1.jpg" alt="" style="width:200px;height:200px;"></button>
+    </div>
+
+
+    <audio id="winning">
+        <source src="mixkit-male-voice-cheer-2010.wav" type="audio/wav">
+    </audio>
+    <audio id="losting">
+        <source src="mixkit-player-losing-or-failing-2042.wav" type="audio/wav">
+    </audio>
+
+
+
+    <div class="modal" id="modal">
+        <div class="modal-body">
+            That is a draw!</div>
+    </div>
+
+    <div class="mobil" id="mobil">
+        <div class="mobil-body">
+            You lose!</div>
+    </div>
+    <div class="monir" id="monir">
+        <div class="monir-body">
+            You win!</div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
