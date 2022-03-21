@@ -6,7 +6,7 @@
             
             body {
                 height: 100%;
-                background-image: url(images/8d83e6f41dfd39c5400768042d18f949.jpg);
+                background-image: url(8d83e6f41dfd39c5400768042d18f949.jpg);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -131,7 +131,7 @@
             @media (min-width: 310px) and (max-width:950px) {
                 body {
                     height: 100%;
-                    background-image: url(images/8d83e6f41dfd39c5400768042d18f949.jpg);
+                    background-image: url(8d83e6f41dfd39c5400768042d18f949.jpg);
                     /* background-color: red; */
                     background-position: center;
                     background-repeat: no-repeat;
