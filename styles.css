@@ -31,7 +31,6 @@
                 font-family: 'Raleway', sans-serif;
                 font-size: 48px;
                 font-weight: 300;
-                /* line-height: 32px; */
                 display: flex;
             }
             
@@ -61,7 +60,7 @@
             .mobil,
             .monir {
                 position: fixed;
-                top: 20%;
+                top: 30%;
                 left: 50%;
                 transform: translate(-50%, -50%) scale(0);
                 transition: 200ms ease-in-out;
@@ -132,7 +131,6 @@
                 body {
                     height: 100%;
                     background-image: url(8d83e6f41dfd39c5400768042d18f949.jpg);
-                    /* background-color: red; */
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
