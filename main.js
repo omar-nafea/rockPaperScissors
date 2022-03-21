@@ -28,32 +28,32 @@ possibleChoices.forEach((possibleChoice) =>
 );
 
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 5) + 1; // or you can use possibleChoices.length
+    const randomNumber = Math.floor(Math.random() * 5) + 1; 
 
     if (randomNumber === 1) {
         computerChoice = "rock";
         computerChoiceDisplay.innerHTML =
-            "<img src='images/rock-ft-1.jpg' width='200px' height='200px'>";
+            "<img src='rock-ft-1.jpg' width='200px' height='200px'>";
     }
     if (randomNumber === 2) {
         computerChoice = "scissors";
         computerChoiceDisplay.innerHTML =
-            "<img src='images/scissor-ft-1.jpg' width='200px' height='200px'>";
+            "<img src='scissor-ft-1.jpg' width='200px' height='200px'>";
     }
     if (randomNumber === 3) {
         computerChoice = "paper";
         computerChoiceDisplay.innerHTML =
-            "<img src='images/paper-ft-1.jpg' width='200px' height='200px'>";
+            "<img src='paper-ft-1.jpg' width='200px' height='200px'>";
     }
     if (randomNumber === 4) {
         computerChoice = "rock";
         computerChoiceDisplay.innerHTML =
-            "<img src='images/rock-ft-1.jpg' width='200px' height='200px'>";
+            "<img src='rock-ft-1.jpg' width='200px' height='200px'>";
     }
     if (randomNumber === 5) {
         computerChoice = "paper";
         computerChoiceDisplay.innerHTML =
-            "<img src='images/paper-ft-1.jpg' width='200px' height='200px'>";
+            "<img src='paper-ft-1.jpg' width='200px' height='200px'>";
     }
 }
 
@@ -143,5 +143,4 @@ function getResult() {
     if (result === "its a draw!") {
         openModal(modal);
     }
-    // resultDisplay.innerHTML = result;
 }
